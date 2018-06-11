@@ -1,0 +1,31 @@
+{
+  "name": "git-keyword-stats",
+  "version": "0.0.1",
+  "description": "Collects statistics on keywords in commit messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobVanGroenewoud/git-keyword-stats.git"
+  },
+  "keywords": [
+    "git",
+    "keywords",
+    "commits"
+  ],
+  "author": "Rob van Groenewoud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobVanGroenewoud/git-keyword-stats/issues"
+  },
+  "homepage": "https://github.com/RobVanGroenewoud/git-keyword-stats#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "meow": "^5.0.0"
+  }
+}
